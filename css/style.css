@@ -1,0 +1,63 @@
+body {
+  background: #333;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  /*opacity: 0.8;*/
+}
+
+.secc {
+  /*border-bottom: #008ed6 3px solid;*/
+  border-top: #008ed6 3px solid;
+  opacity: 0.8;
+}
+.carousel{
+  /*margin-top: 60px;*/
+  margin-bottom: 0px;
+}
+
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#authors img {
+  margin-top: -50px; }
+#authors .card,#about,.card{
+  color:#333;
+}
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+#authors .fab {
+  color: #fff; }
+.s1{
+  color: #333;
+}
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
+
+
+<form role="form" id="form-buscar">
+<div class="form-group">
+<div class="input-group">
+<input id="1" class="form-control" type="text" name="search" placeholder="Search... " required/>
+<span class="input-group-btn">
+<button class="btn btn-success" type="submit">
+<i class="glyphicon glyphicon-search" aria-hidden="true"></i> Search
+</button>
+</span>
+</div>
+</div>
+</form>

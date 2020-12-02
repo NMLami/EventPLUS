@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Event+</title>
+</head>
+
+
+
+
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+    <div class="container">
+      <a href="http://localhost/login_plugin/"  class="navbar-brand">Event+</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="http://localhost/login_plugin/"  class="nav-link active"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="view2.php" class="nav-link"><i class="fas fa-calendar-check"></i> Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a href="fest.html" class="nav-link"><i class="fas fa-expand"></i> Fests</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactus.html" class="nav-link"><i class="fas fa-id-card"></i> Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              <i class="fas fa-user"></i> Welcome User
+            </a>
+            <div class="dropdown-menu">
+              <a href="form2.php" class="dropdown-item">
+                <i class="fas fa-user-circle"></i> Create Fest
+              </a>
+              <a href="http://localhost/login_plugin/index222.php" class="dropdown-item">
+                <i class="fas fa-sign-out-alt"></i> My Profile
+              </a>
+            </div>
+          </li>
+          <!--<li class="nav-item">
+            <a href="http://localhost:5000/users/login" class="nav-link"><i class="fas fa-sign-in-alt"></i> Log In</a>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- SLIDER WITH CAPTIONS -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 m-auto">
+        <div id="slider4" class="carousel slide mb-5" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#slider4" data-slide-to="0"></li>
+            <li data-target="#slider4" data-slide-to="1"></li>
+            <li data-target="#slider4" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="img/image1.jpg" alt="First Slide">
+              <!--
+                <div class="carousel-caption">
+                <h3>Slide One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+              -->
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/image2.jpg" alt="Second Slide">
+              <!--
+                <div class="carousel-caption">
+                <h3>Slide Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+              -->
+            </div>
+
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/image3.jpg" alt="Third Slide">
+              <!--<div class="carousel-caption">
+                <h3>Slide Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+        <!-- CONTROLS -->
+        <a href="#slider4" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#slider4" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!-- Search -->
+  <section id="explore-head-section">
+    <div class="secc">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="display-4">Search</h1>
+            <p class="lead">
+              Search by Fest name ( Example: ICTFEST ), University name ( Example: Islamic University of Technology ) or
+              Event name ( Example: Hackathon ).
+            </p>
+            <a href="search.php" class="btn btn-outline-secondary">Search</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- EXPLORE HEAD -->
+  <section id="explore-head-section">
+    <div class="secc">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-5">
+            <h1 class="display-4">Event+</h1>
+            <p class="lead">
+              WELCOME to Event+. Join here to have access to all the features of this website.
+            </p>
+            <a href="index222.php" class="btn btn-outline-secondary">Log In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- CREATE SECTION -->
+  <section id="create-section" class="py-5  secc">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img/logo.png" alt="" class="img-fluid mb-3 rounded-circle" />
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>About Event+</h3>
+          <p>
+          It's a website which gives a platform to the user like Host/Participant to maintain Communcation and also organise a fest easily.
+          </p>
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Host can create Fest and Event in the website and provide necessary Information.They don't need to reach everyone face toface to inform about the Fest.
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+             Participants can get to know about Fest going on around the country easily by going through our website.They can also register easily through the website. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark secc">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-2">
+          <h3>Event+</h3>
+          <p>
+            Copyright &copy;
+            <span id="year"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $("#year").text(new Date().getFullYear());
+
+    // Init Scrollspy
+    $("body").scrollspy({ target: "#main-nav" });
+
+    // Smooth Scrolling
+    $("#main-nav a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top
+          },
+          800,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+  </script>
+</body>
+
+</html>
